@@ -5,6 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Prof. Ruchi Mahajan</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    /* Quick styling, you can move this into style.css */
+    .top-section {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin: 20px;
+    }
+    .left-column {
+      flex: 2;
+      padding-right: 20px;
+    }
+    .right-column {
+      flex: 1;
+      border-left: 2px solid #ddd;
+      padding-left: 20px;
+    }
+    .right-column h2 {
+      margin-top: 0;
+    }
+    nav {
+      background-color: #f5f5f5;
+      padding: 10px;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 10px;
+      background-color: #f5f5f5;
+    }
+  </style>
 </head>
 <body>
   <nav>
@@ -14,9 +51,9 @@
     <a href="simulations.html">Simulations</a>
   </nav>
 
-  <!-- Top two-column layout -->
+  <!-- Top section split into two columns -->
   <div class="top-section">
-    <div class="left">
+    <div class="left-column">
       <h1>Dr. Ruchi Mahajan</h1>
       <p>
         My research in experimental nuclear astrophysics explores one of science’s most 
@@ -24,26 +61,22 @@
         proton- and neutron-induced reactions that drive nucleosynthesis in stellar and 
         explosive environments. Using a multifaceted approach, including neutron activation, 
         β-delayed charged-particle spectroscopy, and charge-exchange reactions, my work at the 
-        University of Kentucky Accelerator Laboratory (UKAL), 
-        the Facility for Rare Isotope Beams (FRIB), and Florida State University (Fox Lab) 
-        provides critical nuclear data to improve models of stellar explosions and the cosmic 
-        origin of the elements.
+        University of Kentucky Accelerator Laboratory (UKAL), the Facility for Rare Isotope Beams (FRIB), 
+        and Florida State University (Fox Lab) provides critical nuclear data to improve models 
+        of stellar explosions and the cosmic origin of the elements.
       </p>
     </div>
-
-    <div class="right">
+    <div class="right-column">
       <h2>Contact</h2>
-      <p>Email: ruchi.mahajan@uky.edu</p>
-      <p>
-        <a href="https://www.linkedin.com" target="_blank">LinkedIn</a><br>
-        <a href="https://scholar.google.com" target="_blank">Google Scholar</a><br>
-        <a href="https://uky.edu" target="_blank">University Website</a>
-      </p>
+      <p>Email: <em>[your email here]</em></p>
+      <p>Website: <a href="#">[your website link]</a></p>
+      <p>LinkedIn: <a href="#">[your LinkedIn]</a></p>
+      <p>Google Scholar: <a href="#">[your Scholar profile]</a></p>
     </div>
   </div>
 
   <footer>
-    <p>&copy; 2025 Ruchi Mahajan</p>
+    <p>&copy; 2025 Ruchi Mahajan </p>
   </footer>
 </body>
 </html>
