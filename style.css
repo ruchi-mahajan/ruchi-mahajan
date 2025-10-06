@@ -36,8 +36,8 @@ nav a:hover {
 
 /* Photo */
 .photo {
-  flex: 0 0 150px; /* fixed width for photo */
-  margin-right: 20px;
+  flex: 0 0 200px; /* fixed width for photo */
+  margin-right: 10px;
 }
 
 .photo img {
