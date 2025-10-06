@@ -7,6 +7,10 @@ body {
   background-color: #f8f9fa;
   color: #333;
 }
+h1 {
+  color: blue;
+  text-align: left;
+}
 
 /* Navigation bar */
 nav {
