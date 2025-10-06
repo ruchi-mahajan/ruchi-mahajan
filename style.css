@@ -1,112 +1,69 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ruchi Mahajan Lab | University of Kentucky</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background: #f5f7fa;
-      color: #333;
-    }
-    header {
-      background: #002147; /* University of Kentucky blue */
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-      font-size: 2.5rem;
-    }
-    header p {
-      margin: 0.5rem 0 0;
-      font-size: 1.2rem;
-    }
-    nav {
-      background: #e9ecef;
-      display: flex;
-      justify-content: center;
-      padding: 0.5rem;
-    }
-    nav a {
-      margin: 0 1rem;
-      text-decoration: none;
-      color: #002147;
-      font-weight: bold;
-    }
-    nav a:hover {
-      text-decoration: underline;
-    }
-    main {
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background: white;
-      border-radius: 8px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    }
-    section {
-      margin-bottom: 2rem;
-    }
-    h2 {
-      color: #002147;
-      border-bottom: 2px solid #002147;
-      padding-bottom: 0.5rem;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #002147;
-      color: white;
-      margin-top: 2rem;
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Ruchi Mahajan Lab</h1>
-    <p>Assistant Professor | University of Kentucky</p>
-  </header>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f7fa;
+  color: #333;
+}
 
-  <nav>
-    <a href="#about">About</a>
-    <a href="#research">Research</a>
-    <a href="#publications">Publications</a>
-    <a href="#contact">Contact</a>
-  </nav>
+header {
+  background: #002147; /* University of Kentucky blue */
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
 
-  <main>
-    <section id="about">
-      <h2>About</h2>
-      <p>Welcome to the Mahajan Lab at the University of Kentucky. Our research focuses on exploring nuclear physics and heavy-ion collisions to understand the equation of state of nuclear matter.</p>
-    </section>
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
 
-    <section id="research">
-      <h2>Research</h2>
-      <p>We use advanced computational models and simulations to study heavy-ion collisions, with a particular emphasis on collective flow and cluster formation.</p>
-    </section>
+header p {
+  margin: 0.5rem 0 0;
+  font-size: 1.2rem;
+}
 
-    <section id="publications">
-      <h2>Publications</h2>
-      <ul>
-        <li>Mahajan, R. et al. (2024). *Bayesian analysis of nuclear matter properties*.</li>
-        <li>Mahajan, R. et al. (2023). *Elliptic flow in heavy-ion collisions*.</li>
-      </ul>
-    </section>
+nav {
+  background: #e9ecef;
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem;
+}
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Email: <a href="mailto:your.email@uky.edu">your.email@uky.edu</a></p>
-      <p>Office: University of Kentucky, Lexington, KY</p>
-    </section>
-  </main>
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #002147;
+  font-weight: bold;
+}
 
-  <footer>
-    <p>&copy; 2025 Ruchi Mahajan Lab | University of Kentucky</p>
-  </footer>
-</body>
-</html>
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #002147;
+  border-bottom: 2px solid #002147;
+  padding-bottom: 0.5rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #002147;
+  color: white;
+  margin-top: 2rem;
+}
