@@ -1,69 +1,44 @@
+/* General page styling */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background: #f5f7fa;
+  line-height: 1.6;
+  background-color: #f8f9fa;
   color: #333;
 }
 
-header {
-  background: #002147; /* University of Kentucky blue */
-  color: white;
-  padding: 2rem;
+/* Navigation bar */
+nav {
+  background: #343a40;
+  padding: 10px;
   text-align: center;
 }
-
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
-}
-
-header p {
-  margin: 0.5rem 0 0;
-  font-size: 1.2rem;
-}
-
-nav {
-  background: #e9ecef;
-  display: flex;
-  justify-content: center;
-  padding: 0.5rem;
-}
-
 nav a {
-  margin: 0 1rem;
+  color: #f8f9fa;
   text-decoration: none;
-  color: #002147;
+  margin: 0 15px;
   font-weight: bold;
 }
-
 nav a:hover {
-  text-decoration: underline;
+  color: #ffc107;
 }
 
-main {
-  max-width: 900px;
-  margin: 2rem auto;
-  padding: 1rem;
+/* Main content */
+.container {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
   background: white;
   border-radius: 8px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-section {
-  margin-bottom: 2rem;
-}
-
-h2 {
-  color: #002147;
-  border-bottom: 2px solid #002147;
-  padding-bottom: 0.5rem;
-}
-
+/* Footer */
 footer {
   text-align: center;
-  padding: 1rem;
-  background: #002147;
-  color: white;
-  margin-top: 2rem;
+  padding: 15px;
+  background: #343a40;
+  color: #f8f9fa;
+  margin-top: 20px;
 }
