@@ -1,37 +1,44 @@
-/* Navigation - centered, same as before */
+/* Navigation - center aligned with bluish links */
 nav {
   text-align: center;
   margin-bottom: 20px;
+  background-color: #e6f0ff; /* light bluish background */
+  padding: 10px 0;
 }
 
 nav a {
-  margin: 0 15px;
+  margin: 0 20px;
   text-decoration: none;
-  font-weight: normal;  /* keep original weight */
-  color: black;         /* original color */
+  font-weight: bold;
+  color: #004080; /* dark blue */
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-/* Top section layout */
+/* Top section with photo and two columns */
 .top-section {
   display: flex;
-  justify-content: flex-start; /* keep original alignment */
+  justify-content: space-between;
   align-items: flex-start;
   margin: 20px;
+  background-color: #f0f8ff; /* very light blue background */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
 }
 
 /* Photo */
 .photo {
-  flex: 0 0 150px;  /* fixed width for photo */
+  flex: 0 0 150px; /* fixed width for photo */
   margin-right: 20px;
 }
 
 .photo img {
   width: 100%;
-  border-radius: 0; /* remove border-radius if original didn't have it */
+  border-radius: 8px;
+  border: 2px solid #004080; /* dark blue border */
 }
 
 /* Left column (main content) */
@@ -44,20 +51,34 @@ nav a:hover {
 .right {
   flex: 1;
   padding-left: 20px;
-  border-left: none; /* remove border if original didn't have it */
+  border-left: 2px solid #004080;
 }
 
 .right h2 {
   margin-top: 0;
+  color: #004080;
 }
 
 .contact-link {
-  display: block;       /* stack links vertically */
-  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
   text-decoration: none;
-  color: black;          /* original color */
+  color: #004080;
 }
 
 .contact-link i {
-  margin-right: 5px;
+  margin-right: 8px;
+  font-size: 18px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #e6f0ff;
+  color: #004080;
+  font-weight: bold;
+  border-top: 2px solid #004080;
 }
