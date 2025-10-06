@@ -1,4 +1,4 @@
-/* Center-aligned nav links */
+/* Navigation - centered, same as before */
 nav {
   text-align: center;
   margin-bottom: 20px;
@@ -7,60 +7,57 @@ nav {
 nav a {
   margin: 0 15px;
   text-decoration: none;
-  font-weight: bold;
-  color: #004080;
+  font-weight: normal;  /* keep original weight */
+  color: black;         /* original color */
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
-/* Top section with photo */
+/* Top section layout */
 .top-section {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start; /* keep original alignment */
   align-items: flex-start;
   margin: 20px;
 }
 
-/* Photo styling */
+/* Photo */
 .photo {
-  flex: 0 0 150px; /* fixed width for photo */
+  flex: 0 0 150px;  /* fixed width for photo */
   margin-right: 20px;
 }
 
 .photo img {
   width: 100%;
-  border-radius: 10px;
+  border-radius: 0; /* remove border-radius if original didn't have it */
 }
 
-/* Left column */
+/* Left column (main content) */
 .left {
   flex: 2;
   padding-right: 20px;
 }
 
-/* Right column */
+/* Right column (contact info) */
 .right {
   flex: 1;
-  border-left: 1px solid #ccc;
   padding-left: 20px;
+  border-left: none; /* remove border if original didn't have it */
 }
 
 .right h2 {
   margin-top: 0;
 }
 
-/* Contact links */
 .contact-link {
-  display: flex;
-  align-items: center;
-  margin-bottom: 8px;
+  display: block;       /* stack links vertically */
+  margin-bottom: 5px;
   text-decoration: none;
-  color: #004080;
+  color: black;          /* original color */
 }
 
 .contact-link i {
-  margin-right: 8px;
-  font-size: 18px;
+  margin-right: 5px;
 }
