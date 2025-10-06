@@ -36,12 +36,12 @@ nav a:hover {
 
 /* Photo */
 .photo {
-  flex: 0 0 200px; /* fixed width for photo */
-  margin-right: 10px;
+  flex: 0 0 150px; /* fixed width for photo */
+  margin-right: 20px;
 }
 
 .photo img {
-  width: 100%;
+  width: 150%;
   border-radius: 8px;
   border: 2px solid #004080; /* dark blue border */
 }
