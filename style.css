@@ -16,13 +16,13 @@ nav {
 
 nav a {
   display: inline-block;
-  margin: 0 40px;             /* space between buttons */
+  margin: 0 50px;             /* space between buttons */
   padding: 15px 25px;         /* make buttons larger */
-  font-size: 30px;            /* larger text */
+  font-size: 40px;            /* larger text */
   color: white;
   text-decoration: none;
   font-weight: bold;
-  border-radius: 5px;         /* optional rounded edges */
+  border-radius: 10px;         /* optional rounded edges */
   transition: background-color 0.3s;
 }
 
@@ -34,7 +34,7 @@ nav a:hover {
 .top-section {
     display: flex;
     justify-content: space-between;
-    margin: 30px auto;
+    margin: 40px auto;
     max-width: 1400px;
 }
 
