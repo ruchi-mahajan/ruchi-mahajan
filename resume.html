@@ -2,61 +2,38 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About | Prof. Ruchi Mahajan</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Resume | Prof. Ruchi Mahajan</title>
     <link rel="stylesheet" href="w3.css">
     <link rel="stylesheet" href="style.css">
 </head>
-      <script>
-  // Get current page filename
-  const currentPage = window.location.pathname.split("/").pop();
+<body class="w3-light-grey">
 
-  // Select all ribbon links
-  const links = document.querySelectorAll(".ribbon-link");
-
-  links.forEach(link => {
-    // Get the href filename from link
-    const linkPage = link.getAttribute("href");
-    
-    // If it matches the current page, add 'active' class
-    if (linkPage === currentPage || (linkPage === "index.html" && currentPage === "")) {
-      link.classList.add("active");
-    }
-  });
-</script>
-<body, class="w3-light-grey">
-
-    <!-- Header + Ribbon Menu -->
-
-        <div class="top-ribbon w3-teal w3-center w3-padding">
-            <a href="index.html" class="ribbon-link">Home</a>
-            <a href="resume.html" class="ribbon-link active">Resume</a>
-            <a href="research.html" class="ribbon-link">Research</a>
-            <a href="teaching.html" class="ribbon-link">Teaching</a>
-            <a href="people.html" class="ribbon-link">People</a>
-        </div>
-
-
-    <!-- Top Section: Intro + Links -->
-    <div class="top-section">
-        <div class="left">
-            <img src="images/Ruchi_profile_pic.jpeg" alt="Prof. Ruchi Mahajan" class="photo">
-            <div class="text-block">
-                <h2>Assistant Professor at University of Kentucky</h2>
-                <p>I lead a research lab focused on [Your Research Focus].</p>
-                <p>
-                    <a href="https://www.linkedin.com" target="_blank">LinkedIn</a> |
-                    <a href="https://scholar.google.com/citations?user=eVuYsocAAAAJ&hl=en" target="_blank">Google Scholar</a>
-                </p>
-            </div>
-        </div>
+    <!-- Ribbon Menu -->
+    <div class="top-ribbon w3-teal w3-center w3-padding">
+        <a href="index.html" class="ribbon-link">Home</a>
+        <a href="resume.html" class="ribbon-link active">Resume</a>
+        <a href="research.html" class="ribbon-link">Research</a>
+        <a href="teaching.html" class="ribbon-link">Teaching</a>
+        <a href="people.html" class="ribbon-link">People</a>
     </div>
 
-    <!-- Lab Info -->
-    <main>
-        <h3>Our Lab</h3>
-        <p>Our lab conducts experimental and theoretical studies in [field]. Students and collaborators are welcome to join us.</p>
-        <img src="images/lab-photo.jpg" alt="Lab team">
+    <!-- Resume Viewer -->
+    <main style="padding:20px; text-align:center;">
+        <h2>Curriculum Vitae</h2>
+        <p>You can scroll through my resume below or download it directly.</p>
+        
+        <!-- PDF Embed -->
+        <embed src="files/Ruchi_Mahajan_CV.pdf" 
+               type="application/pdf" 
+               width="100%" 
+               height="800px" />
+        
+        <!-- Fallback Download Link -->
+        <p>
+            <a href="files/Ruchi_Mahajan_CV.pdf" target="_blank" class="w3-button w3-teal">
+                Download Resume (PDF)
+            </a>
+        </p>
     </main>
 
     <!-- Footer -->
