@@ -1,105 +1,70 @@
-/* Navigation - center aligned with bluish links */
+/* Navigation bar */
 nav {
+  background-color: #003366; /* deep blue */
+  padding: 10px;
   text-align: center;
-  margin-bottom: 20px;
-  background-color: #e6f0ff; /* light bluish background */
-  padding: 10px 0;
 }
-
-h3 {
-  margin: 0;
-  padding: 0;
-}
-
 nav a {
-  margin: 0 20px;
+  color: white;
+  margin: 0 15px;
   text-decoration: none;
   font-weight: bold;
-  color: #004080; /* dark blue */
 }
-
 nav a:hover {
   text-decoration: underline;
 }
 
-/* Top section with photo and two columns */
+/* Top section (two-column layout) */
 .top-section {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin: 20px;
-  background-color: #f0f8ff; /* very light blue background */
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  gap: 40px;
+  margin: 30px;
 }
 
-/* Photo */
+/* Left column */
 .photo-text {
   display: flex;
-  align-items: flex-start; /* top-align photo with text */
-  gap: 20px;              /* space between photo and text */
+  gap: 20px;
+  align-items: flex-start;
 }
 
 .photo {
-  width: 180px;   /* adjust width */
-  height: auto;   /* maintain ratio */
+  width: 200px;
+  height: auto;
   border-radius: 10px;
-  flex-shrink: 0; /* prevent photo from shrinking */
-  border: 2px solid #004080;
+  flex-shrink: 0;
 }
 
 .text-block {
-  flex: 1; /* text takes remaining space */
-  font-size: 1.2rem; /* slightly bigger text */
+  font-size: 1.2rem;
   line-height: 1.6;
 }
 
-
-.photo img {
-  width: 150%;
-  border-radius: 8px;
-  border: 2px solid #004080; /* dark blue border */
-}
-
-/* Left column (main content) */
-.left {
-  flex: 2;
-  padding-right: 20px;
-}
-
-/* Right column (contact info) */
+/* Right column */
 .right {
   flex: 1;
-  padding-left: 20px;
-  border-left: 2px solid #004080;
-}
-
-.right h2 {
-  margin-top: 0;
-  color: #004080;
+  font-size: 1.1rem;
 }
 
 .contact-link {
-  display: flex;
-  align-items: center;
-  margin-bottom: 10px;
+  display: block;
+  margin: 8px 0;
+  color: #003366;
   text-decoration: none;
-  color: #004080;
+  font-weight: bold;
 }
 
-.contact-link i {
-  margin-right: 8px;
-  font-size: 18px;
+.contact-link:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
 footer {
+  background-color: #003366;
+  color: white;
   text-align: center;
-  margin-top: 30px;
   padding: 10px;
-  background-color: #e6f0ff;
-  color: #004080;
-  font-weight: bold;
-  border-top: 2px solid #004080;
+  margin-top: 30px;
 }
