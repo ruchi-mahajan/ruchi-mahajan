@@ -10,15 +10,15 @@ body {
 /* Top ribbon navigation */
 nav {
   background-color: #004080; /* bluish color */
-  padding: 15px 0;           /* increase ribbon height */
+  padding: 20px 0;           /* increase ribbon height */
   text-align: center;         /* center the buttons */
 }
 
 nav a {
   display: inline-block;
-  margin: 0 25px;             /* space between buttons */
-  padding: 12px 20px;         /* make buttons larger */
-  font-size: 18px;            /* larger text */
+  margin: 0 40px;             /* space between buttons */
+  padding: 15px 25px;         /* make buttons larger */
+  font-size: 30px;            /* larger text */
   color: white;
   text-decoration: none;
   font-weight: bold;
