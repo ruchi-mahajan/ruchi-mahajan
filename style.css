@@ -7,25 +7,27 @@ body {
 }
 
 /* ---------- Navigation Ribbon ---------- */
+/* Top ribbon navigation */
 nav {
-    background-color: #1a73e8;
-    padding: 12px 0;
-    text-align: center;
+  background-color: #004080; /* bluish color */
+  padding: 15px 0;           /* increase ribbon height */
+  text-align: center;         /* center the buttons */
 }
 
 nav a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0 20px;
-    padding: 8px 12px;
-    border-radius: 4px;
-    transition: 0.3s;
+  display: inline-block;
+  margin: 0 25px;             /* space between buttons */
+  padding: 12px 20px;         /* make buttons larger */
+  font-size: 18px;            /* larger text */
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;         /* optional rounded edges */
+  transition: background-color 0.3s;
 }
 
 nav a:hover {
-    background-color: #1558b0;
+  background-color: #0066cc;  /* highlight on hover */
 }
 
 /* ---------- Top section (Photo + Text + Contact) ---------- */
