@@ -41,8 +41,8 @@ nav a:hover {
   gap: 20px;              /* space between photo and text */
 }
 
-.profile-photo {
-  width: 250px;   /* adjust width */
+.photo {
+  width: 200px;   /* adjust width */
   height: auto;   /* maintain ratio */
   border-radius: 10px;
   flex-shrink: 0; /* prevent photo from shrinking */
