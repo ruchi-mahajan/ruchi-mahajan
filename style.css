@@ -211,13 +211,17 @@ footer {
   font-size: 2.5em; /* adjust the value as needed */
 }
 
+.page-container2 {
+  max-width: 800px;   /* width similar to a PDF page */
+  margin: 0 auto;     /* center the container */
+  padding: 20px;
+}
+
 .research-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* exactly 3 columns */
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  justify-content: center; /* centers the whole grid */
-  margin-top: 20px;
-  padding: 0 20px;
+  justify-content: center;
 }
 
 .research-card {
@@ -234,7 +238,7 @@ footer {
   max-width: 200px;
   height: auto;
   margin-bottom: 10px;
-  border-radius: 4px; /* small rounding */
+  border-radius: 4px;
 }
 
 .research-card h3 {
@@ -247,4 +251,16 @@ footer {
   color: #555;
 }
 
+/* Responsive adjustments */
+@media screen and (max-width: 900px) {
+  .research-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
+
+@media screen and (max-width: 600px) {
+  .research-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
