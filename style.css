@@ -213,9 +213,9 @@ footer {
 
 .research-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(3, 1fr); /* exactly 3 columns */
   gap: 20px;
-  justify-content: center; /* centers the grid */
+  justify-content: center; /* centers the whole grid */
   margin-top: 20px;
   padding: 0 20px;
 }
@@ -234,7 +234,7 @@ footer {
   max-width: 200px;
   height: auto;
   margin-bottom: 10px;
-  border-radius: 4px; /* optional: small rounding */
+  border-radius: 4px; /* small rounding */
 }
 
 .research-card h3 {
@@ -245,4 +245,6 @@ footer {
 .research-card p {
   font-size: 0.95em;
   color: #555;
+}
+
 }
