@@ -98,6 +98,12 @@ nav a:hover {
 .contact-link i {
     margin-right: 8px;
 }
+.same-width-btn {
+    display: inline-block;
+    width: 180px; /* Adjust width as needed */
+    text-align: center;
+    margin: 5px; /* Gap between buttons */
+}
 
 /* ---------- Footer ---------- */
 footer {
