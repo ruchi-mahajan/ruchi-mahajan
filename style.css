@@ -35,14 +35,25 @@ nav a:hover {
 }
 
 /* Photo */
-.photo {
-  width: 250px;   /* increase this value for width */
-  height: auto;   /* keeps correct aspect ratio */
-  border-radius: 10px; /* optional: rounded corners */
-  margin-bottom: 15px; /* spacing below photo */
-  flex: 0 0 150px; /* fixed width for photo */
-  margin-right: 30px;
+.photo-text {
+  display: flex;
+  align-items: flex-start; /* top-align photo with text */
+  gap: 20px;              /* space between photo and text */
 }
+
+.profile-photo {
+  width: 250px;   /* adjust width */
+  height: auto;   /* maintain ratio */
+  border-radius: 10px;
+  flex-shrink: 0; /* prevent photo from shrinking */
+}
+
+.text-block {
+  flex: 1; /* text takes remaining space */
+  font-size: 1.2rem; /* slightly bigger text */
+  line-height: 1.6;
+}
+
 
 .photo img {
   width: 150%;
