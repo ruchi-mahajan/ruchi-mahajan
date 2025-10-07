@@ -34,7 +34,7 @@ nav a:hover {
 .photo-text {
   display: flex;
   align-items: baseline; /* aligns heading with photo top */
-  gap: 30px;             /* space between photo and text */
+  gap: 20px;             /* space between photo and text */
 }
 
 .photo {
