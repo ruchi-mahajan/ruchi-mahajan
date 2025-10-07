@@ -166,7 +166,9 @@ footer {
 .person-card img {
   width: 100%;
   max-width: 180px;
-  border-radius: 50%;
+  aspect-ratio: 1 / 1;   /* ensures square shape */
+  object-fit: cover;     /* crops nicely */
+  border-radius: 0;      /* no rounding, keeps it square */
   margin-bottom: 10px;
 }
 
