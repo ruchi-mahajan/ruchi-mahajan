@@ -3,6 +3,27 @@ html, body, h1, h2, h3, h4, h5, h6 {
   font-family: "Roboto", sans-serif;
 }
 
+/* Ribbon styles */
+.top-ribbon {
+  font-size: 18px;       /* Bigger text */
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.top-ribbon .ribbon-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  padding: 8px 12px;
+}
+
+.top-ribbon .ribbon-link:hover {
+  background-color: #1b8c8c; /* Slightly darker teal on hover */
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+
 /* Photo styling */
 .photo {
   width: 150px;
