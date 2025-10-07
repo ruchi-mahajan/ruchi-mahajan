@@ -34,12 +34,12 @@ nav a:hover {
 .photo-text {
   display: flex;
   align-items: baseline; /* aligns heading with photo top */
-  gap: 20px;             /* space between photo and text */
+  gap: 30px;             /* space between photo and text */
 }
 
 .photo {
-  width: 180px;   /* adjust as needed */
-  height: 180px;
+  width: 200px;   /* adjust as needed */
+  height: 200px;
   border-radius: 8px;
   margin-top: 10px; /* small nudge for better visual alignment */
 }
