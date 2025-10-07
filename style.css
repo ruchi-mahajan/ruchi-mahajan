@@ -107,6 +107,23 @@ footer {
     padding: 15px 0;
     margin-top: 40px;
 }
+.ribbon-link {
+    padding: 12px 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    transition: background 0.3s;
+}
+
+.ribbon-link:hover {
+    background-color: #00796b; /* slightly darker on hover */
+}
+
+.ribbon-link.active {
+    background-color: #004d40; /* highlight color for current page */
+    border-radius: 4px;
+}
 
 /* ---------- Responsive ---------- */
 @media screen and (max-width: 1000px) {
