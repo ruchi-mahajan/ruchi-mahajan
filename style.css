@@ -100,9 +100,8 @@ nav a:hover {
 }
 .same-width-btn {
     display: inline-block;
-    width: 120px; /* Adjust width as needed */
     text-align: center;
-    margin: 2px; /* Gap between buttons */
+    margin: 5px; /* Gap between buttons */
 }
 
 /* ---------- Footer ---------- */
