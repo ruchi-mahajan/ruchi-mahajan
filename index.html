@@ -15,6 +15,23 @@
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
 </style>
 </head>
+  <script>
+  // Get current page filename
+  const currentPage = window.location.pathname.split("/").pop();
+
+  // Select all ribbon links
+  const links = document.querySelectorAll(".ribbon-link");
+
+  links.forEach(link => {
+    // Get the href filename from link
+    const linkPage = link.getAttribute("href");
+    
+    // If it matches the current page, add 'active' class
+    if (linkPage === currentPage || (linkPage === "index.html" && currentPage === "")) {
+      link.classList.add("active");
+    }
+  });
+</script>
 <body class="w3-light-grey">
 <!-- Top Ribbon -->
 <div class="top-ribbon w3-teal w3-center w3-padding">
