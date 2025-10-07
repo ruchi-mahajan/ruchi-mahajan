@@ -1,18 +1,26 @@
 /* Navigation bar */
 nav {
-  background-color: #003366; /* deep blue */
-  padding: 10px;
+  background-color: #003366;   /* keep your bluish scheme */
+  padding: 20px 0;             /* increase vertical padding = taller ribbon */
   text-align: center;
 }
+
+/* Navigation links (buttons) */
 nav a {
   color: white;
-  margin: 0 15px;
   text-decoration: none;
+  margin: 0 25px;
+  font-size: 22px;             /* make buttons text larger */
   font-weight: bold;
+  padding: 12px 20px;          /* add padding inside buttons */
+  border-radius: 6px;
+  transition: background-color 0.3s;
 }
+
 nav a:hover {
-  text-decoration: underline;
+  background-color: #005599;   /* hover effect */
 }
+
 
 /* Top section (two-column layout) */
 .top-section {
