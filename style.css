@@ -10,7 +10,7 @@ body {
 /* Top ribbon navigation */
 nav {
   background-color: #004080; /* bluish color */
-  padding: 20px 0;           /* increase ribbon height */
+  padding: 25px 20px;           /* increase ribbon height */
   text-align: center;         /* center the buttons */
 }
 
