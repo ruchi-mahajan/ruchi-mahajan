@@ -49,6 +49,11 @@ nav a:hover {
   line-height: 1.6;
 }
 
+.text-block h1 {
+  margin-top: 0;  /* removes that big top gap */
+}
+
+
 /* Container for left and right columns */
 .container {
   display: flex;
