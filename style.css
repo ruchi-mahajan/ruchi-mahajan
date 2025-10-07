@@ -36,6 +36,10 @@ nav a:hover {
 
 /* Photo */
 .photo {
+  width: 250px;   /* increase this value for width */
+  height: auto;   /* keeps correct aspect ratio */
+  border-radius: 10px; /* optional: rounded corners */
+  margin-bottom: 15px; /* spacing below photo */
   flex: 0 0 150px; /* fixed width for photo */
   margin-right: 20px;
 }
