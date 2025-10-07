@@ -219,8 +219,8 @@ footer {
 
 .small-btn {
   font-size: 14px;          /* smaller text */
-  padding: 6px 14px;        /* smaller button padding */
-  margin: 0 6px;            /* small spacing between buttons */
+  padding: 6px 10px;        /* smaller button padding */
+  margin: 0 2px;            /* small spacing between buttons */
 }
 
 
