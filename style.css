@@ -170,3 +170,20 @@ footer {
   margin-bottom: 10px;
 }
 
+/* Center PDF and let it define its area */
+.pdf-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Let PDF keep its proportions */
+.resume-pdf {
+    width: auto;         /* don’t stretch */
+    height: 80vh;        /* keep it tall enough to view comfortably */
+    max-width: 100%;     /* prevent overflow */
+    border: none;
+}
+
