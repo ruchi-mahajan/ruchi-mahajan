@@ -2,13 +2,18 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Prof. Ruchi Mahajan</title>
-  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body class="w3-light-grey">
+
+<!-- Page Container -->
+<div class="w3-content w3-margin-top" style="max-width:1200px;">
+
   <!-- Navigation -->
   <nav>
     <a href="index.html">Home</a>
@@ -17,58 +22,62 @@
     <a href="simulations.html">Simulations</a>
   </nav>
 
-  <!-- Top section with two-column layout -->
-  <div class="top-section">
-    
-    <!-- Left column (photo + text) -->
-    <div class="left">
-      <div class="photo-text">
-        <img src="./images/Ruchi_profile_pic.jpeg" alt="Prof. Ruchi Mahajan" class="photo">
-        <div class="text-block">
-          <h1>Dr. Ruchi Mahajan</h1>
-          <p>
-            My research in experimental nuclear astrophysics explores one of science’s most 
-            fundamental questions: How are the elements in the universe created? I study 
-            proton- and neutron-induced reactions that drive nucleosynthesis in stellar and 
-            explosive environments. Using a multifaceted approach, including neutron activation, 
-            β-delayed charged-particle spectroscopy, and charge-exchange reactions, my work at the 
-            University of Kentucky Accelerator Laboratory (UKAL), 
-            the Facility for Rare Isotope Beams (FRIB), and Florida State University (Fox Lab) 
-            provides critical nuclear data to improve models of stellar explosions and the cosmic 
-            origin of the elements.
-          </p>
+  <!-- Top Section with Photo, Text, and Contact Info -->
+  <div class="w3-row-padding w3-margin-top">
+
+    <!-- Left Column: Photo + Text -->
+    <div class="w3-twothird">
+      <div class="w3-white w3-card-4 w3-padding">
+        <div class="photo-text">
+          <img src="./images/Ruchi_profile_pic.jpeg" alt="Prof. Ruchi Mahajan" class="photo">
+          <div class="text-block">
+            <h1>Dr. Ruchi Mahajan</h1>
+            <p style="font-size:16px;">
+              My research in experimental nuclear astrophysics explores one of science’s most 
+              fundamental questions: How are the elements in the universe created? I study 
+              proton- and neutron-induced reactions that drive nucleosynthesis in stellar and 
+              explosive environments. Using a multifaceted approach, including neutron activation, 
+              β-delayed charged-particle spectroscopy, and charge-exchange reactions, my work at the 
+              University of Kentucky Accelerator Laboratory (UKAL), 
+              the Facility for Rare Isotope Beams (FRIB), and Florida State University (Fox Lab) 
+              provides critical nuclear data to improve models of stellar explosions and the cosmic 
+              origin of the elements.
+            </p>
+          </div>
         </div>
       </div>
     </div>
 
-    <!-- Right column (contact info) -->
-    <div class="right">
-      <h2>Contact Information</h2>
-      <p>
-        CP 307 <br>
-        Department of Physics<br>
-        University of Kentucky<br>
-        Lexington, Kentucky (USA) <br>
-        Office Contact No: (859)-257-1997
-      </p>
-      <a href="mailto:ruchi.mahajan@uky.edu" class="contact-link">
-        <i class="fas fa-envelope"></i> ruchi.mahajan@uky.edu
-      </a><br>
-      <a href="https://www.linkedin.com" target="_blank" class="contact-link">
-        <i class="fab fa-linkedin"></i> LinkedIn
-      </a><br>
-      <a href="https://scholar.google.com/citations?user=eVuYsocAAAAJ&hl=en" target="_blank" class="contact-link">
-        <i class="fas fa-graduation-cap"></i> Google Scholar
-      </a><br>
-      <a href="https://uky.edu" target="_blank" class="contact-link">
-        <i class="fas fa-university"></i> University Website
-      </a>
+    <!-- Right Column: Contact Info -->
+    <div class="w3-third">
+      <div class="w3-white w3-card-4 w3-padding">
+        <h2>Contact Information</h2>
+        <p>University of Kentucky<br>
+           Department of Chemistry and Physics
+        </p>
+        <a href="mailto:ruchi.mahajan@uky.edu" class="contact-link">
+          <i class="fas fa-envelope"></i> ruchi.mahajan@uky.edu
+        </a>
+        <a href="https://www.linkedin.com" target="_blank" class="contact-link">
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a href="https://scholar.google.com/citations?user=eVuYsocAAAAJ&hl=en" target="_blank" class="contact-link">
+          <i class="fas fa-graduation-cap"></i> Google Scholar
+        </a>
+        <a href="https://uky.edu" target="_blank" class="contact-link">
+          <i class="fas fa-university"></i> University Website
+        </a>
+      </div>
     </div>
 
   </div>
 
-  <footer>
-    <p>&copy; 2025 Ruchi Mahajan</p>
-  </footer>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-teal w3-center w3-margin-top w3-padding-16">
+  <p>&copy; 2025 Ruchi Mahajan</p>
+</footer>
+
 </body>
 </html>
