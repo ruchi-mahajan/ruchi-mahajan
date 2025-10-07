@@ -121,7 +121,7 @@ footer {
 }
 
 .ribbon-link.active {
-    background-color: #FFF5EE; /* highlight color for current page */
+    background-color: #00FFFF; /* highlight color for current page */
     border-radius: 4px;
 }
 
