@@ -1,100 +1,58 @@
-/* Navigation bar */
-nav {
-  background-color: #003366;   /* keep your bluish scheme */
-  padding: 20px 0;             /* increase vertical padding = taller ribbon */
-  text-align: center;
+/* General Font */
+html, body, h1, h2, h3, h4, h5, h6 {
+  font-family: "Roboto", sans-serif;
 }
 
-/* Navigation links (buttons) */
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 25px;
-  font-size: 25px;             /* make buttons text larger */
-  font-weight: bold;
-  padding: 18px 20px;          /* add padding inside buttons */
-  border-radius: 10px;
-  transition: background-color 0.3s;
+/* Photo styling */
+.photo {
+  width: 150px;
+  height: auto;
+  border-radius: 8px;
+  margin-right: 20px;
 }
 
-nav a:hover {
-  background-color: #005599;   /* hover effect */
-}
-
-
-/* Top section (two-column layout) */
-.top-section {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 40px;
-  margin: 30px;
-}
-
+/* Flex container for photo + text */
 .photo-text {
   display: flex;
-  align-items: fex-start; /* aligns heading with photo top */
-  gap: 20px;             /* space between photo and text */
-}
-
-.photo {
-  width: 200px;   /* adjust as needed */
-  height: 200px;
-  border-radius: 8px;
-  margin-top: 10px; /* small nudge for better visual alignment */
-
-}
-
-.text-block h1 {
-  margin-top: 0;  /* remove default heading margin */
-}
-
-
-
-.text-block {
-  font-size: 1.2rem;
-  line-height: 1.6;
-}
-
-
-
-/* Container for left and right columns */
-.container {
-  display: flex;
-  justify-content: space-between;
   align-items: flex-start;
-  gap: 30px;
-  margin: 20px;
+  gap: 20px;
 }
 
-/* Left column (photo + text) */
-.left {
-  flex: 0 0 65%;    /* reduce width to 55% of container */
+/* Remove top margin for h1 in text-block */
+.text-block h1 {
+  margin-top: 0;
 }
 
-/* Right column (contact info) */
-.right {
-  flex: 0 0 30%;    /* right side takes 40% */
-}
-
-
+/* Contact links */
 .contact-link {
   display: block;
-  margin: 8px 0;
-  color: #003366;
+  margin-bottom: 10px;
+  color: #008080; /* teal */
   text-decoration: none;
-  font-weight: bold;
 }
 
 .contact-link:hover {
   text-decoration: underline;
 }
 
-/* Footer */
-footer {
-  background-color: #003366;
-  color: white;
+/* Navigation bar */
+nav {
   text-align: center;
-  padding: 10px;
-  margin-top: 30px;
+  background-color: #008080;
+  padding: 12px 0;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 12px 18px;
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  background-color: #00b3b3;
+  color: white;
+  border-radius: 4px;
 }
