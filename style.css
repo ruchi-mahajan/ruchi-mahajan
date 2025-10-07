@@ -56,17 +56,17 @@ nav a:hover {
   justify-content: space-between;
   align-items: flex-start;
   gap: 30px;
-  margin: 30px;
+  margin: 20px;
 }
 
 /* Left column (photo + text) */
 .left {
-  flex: 0 0 55%;    /* reduce width to 55% of container */
+  flex: 0 0 65%;    /* reduce width to 55% of container */
 }
 
 /* Right column (contact info) */
 .right {
-  flex: 0 0 40%;    /* right side takes 40% */
+  flex: 0 0 30%;    /* right side takes 40% */
 }
 
 
