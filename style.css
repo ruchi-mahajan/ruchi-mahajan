@@ -50,11 +50,25 @@ nav a:hover {
   line-height: 1.6;
 }
 
-/* Right column */
-.right {
-  flex: 1;
-  font-size: 1.1rem;
+/* Container for left and right columns */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 30px;
+  margin: 30px;
 }
+
+/* Left column (photo + text) */
+.left {
+  flex: 0 0 55%;    /* reduce width to 55% of container */
+}
+
+/* Right column (contact info) */
+.right {
+  flex: 0 0 40%;    /* right side takes 40% */
+}
+
 
 .contact-link {
   display: block;
