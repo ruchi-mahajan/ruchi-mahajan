@@ -10,10 +10,10 @@ nav a {
   color: white;
   text-decoration: none;
   margin: 0 25px;
-  font-size: 22px;             /* make buttons text larger */
+  font-size: 25px;             /* make buttons text larger */
   font-weight: bold;
-  padding: 12px 20px;          /* add padding inside buttons */
-  border-radius: 6px;
+  padding: 18px 20px;          /* add padding inside buttons */
+  border-radius: 10px;
   transition: background-color 0.3s;
 }
 
