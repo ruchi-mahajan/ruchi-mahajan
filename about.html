@@ -7,6 +7,23 @@
     <link rel="stylesheet" href="w3.css">
     <link rel="stylesheet" href="style.css">
 </head>
+      <script>
+  // Get current page filename
+  const currentPage = window.location.pathname.split("/").pop();
+
+  // Select all ribbon links
+  const links = document.querySelectorAll(".ribbon-link");
+
+  links.forEach(link => {
+    // Get the href filename from link
+    const linkPage = link.getAttribute("href");
+    
+    // If it matches the current page, add 'active' class
+    if (linkPage === currentPage || (linkPage === "index.html" && currentPage === "")) {
+      link.classList.add("active");
+    }
+  });
+</script>
 <body>
 
     <!-- Header + Ribbon Menu -->
