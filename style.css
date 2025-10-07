@@ -208,5 +208,7 @@ footer {
 
 .students-title {
   text-align: center;
+  font-size: 2.5em; /* adjust the value as needed */
+  font-weight: bold; /* optional: makes it bolder */
 }
 
