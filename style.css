@@ -46,6 +46,7 @@ nav a:hover {
   height: auto;   /* maintain ratio */
   border-radius: 10px;
   flex-shrink: 0; /* prevent photo from shrinking */
+  border: 2px solid #004080;
 }
 
 .text-block {
