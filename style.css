@@ -223,7 +223,9 @@ footer {
   margin: 0 2px;            /* small spacing between buttons */
 }
 
-
+.course {
+  font-size: 14px; 
+}
 
 
 
