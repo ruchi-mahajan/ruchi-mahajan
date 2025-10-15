@@ -227,7 +227,9 @@ footer {
   font-size: 20px; 
 }
 
-
+.justified {
+    text-align: justify;
+}
 
 
 
